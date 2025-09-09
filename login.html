@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="background-color:lightblue;">
+    <h2 >เข้าสู่ระบบ/ลงทะเบียน</h2>
+    <div>
+        <form>
+            <select>
+                <option value="employer">ผู้สมัครงาน</option>
+                <option value="admin">ผู้ประกอบการ</option>
+            </select>
+        </form>
+        <form action="/submit_login" method="post">
+            <label for="username">เลขประจำตัวประชาชน:</label><br>
+            <input type="text" id="userid" name="userid" required><br><br>
+            <label for="password">รหัสผ่าน:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="เข้าสู่ระบบ">
+        </form>
+        <p>หากยังไม่มีบัญชี</p><br> 
+            <a href="register.html" class="contact-btn">สมัครสมาชิก</a>
+    </div>
+</body>
+</html>

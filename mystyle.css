@@ -1,0 +1,22 @@
+nav{
+    float: right;
+}
+
+a.contact-btn{
+  background-color: white;
+  color: lightblue;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+div{
+    border: 2px;
+    position: center;
+    background-color: rgb(176, 238, 255);
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    padding-left: 20px;
+    margin: 35px;
+    align-content: center;
+}
